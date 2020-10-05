@@ -1,0 +1,48 @@
+Create an intelliJ project for this assignment to do the below(there will be no Mimir for this assignment):
+
+/* for this assigment you are going to practice creating objects and calling methods
+
+Although not needed you may want to look at 
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html 
+https://docs.oracle.com/javase/8/docs/api/java/util/Date.html
+https://docs.oracle.com/javase/8/docs/api/index.html?java/util/Random.html
+
+*/
+
+
+// create a Scanner object, passing in System.in as the parameter, called: console
+
+
+//call the nextLine method on the console object.
+//print the value that is returned by the method call
+//call the next method on the console object.
+//print the value that is returned by the method call
+//call the nextLine method on the console object.
+//print the value that is returned by the method call
+
+//create a new ArrayList object called myList that contains integers using the line below:
+ArrayList<Integer> myList = new ArrayList<>();
+
+//call the add method on myList passing in the number 12
+//print the result of the value returned by calling the size method on myList
+//call the add method on myList passing in the number 14
+//print the result of the value returned by calling the size method on myList
+//print the result of the value returned by calling the get method on myList passing in 0 as the input
+//print the result of the value returned by calling the get method on myList passing in 1 as the input
+//call the set method on myList passing in 0 and 5 as the two inputs
+//print the result of the value returned by calling the get method on myList passing in 0 as the input
+//print the result of the value returned by calling the get method on myList passing in 1 as the input
+//call the clear method on myList
+//print the result of the value returned by calling the size method on myList
+
+
+// create a Date object called currentDate
+// create a Date object called anotherDate
+
+
+// call the toString method on currentDate and put it into a string variable called curDateString
+// print curDateString
+// call the setTime method for anotherDate passing in 123478 as its input.
+// call the before method on currentDate passing in anotherDate  put the returned value into a boolean variable called isBefore.  
+// print the value of isBefore
+
