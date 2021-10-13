@@ -5,7 +5,7 @@ Create an intelliJ project for this assignment to do the below(there will be no 
 Although not needed you may want to look at 
 https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html 
 https://docs.oracle.com/javase/8/docs/api/java/util/Date.html
-https://docs.oracle.com/javase/8/docs/api/index.html?java/util/Random.html
+https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html
 
 */
 
