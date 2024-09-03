@@ -32,10 +32,26 @@ find . -name "*.class" -type f -exec rm -f {} \;
 # -name "*.java" specifies the pattern to match Java files
 # -print0 and -0 work together to handle file names with spaces
 
-find . -name "*.java" -print0 | while IFS= read -r -d '' file; do
-  echo "Compiling $file"
-  javac "$file"
-done
+#find . -name "*.java" -print0 | while IFS= read -r -d '' file; do
+#  echo "Compiling $file"
+#  javac "$file"
+#done
+find . -path './Test' -prune -o -name '*.java' -print > sources.txt
+echo "Compiling the following files:"
+cat sources.txt
+javac @sources.txt
+# Check the exit status of the javac command
+if [ $? -eq 0 ]; then
+  echo "Compilied student files successfully"
+else
+  echo "Compilation failed."
+  exit -1
+fi
+
+find Test -name '*.java' -print > sources.txt
+echo "Compiling the following files:"
+cat sources.txt
+javac @sources.txt
 
 # Check the exit status of the javac command
 if [ $? -eq 0 ]; then

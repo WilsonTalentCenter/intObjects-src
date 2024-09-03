@@ -1,4 +1,4 @@
-Create an intelliJ project for this assignment to do the below(there will be no Mimir for this assignment):
+Create an intelliJ project for this assignment to do the below:
 
 /* for this assigment you are going to practice creating objects and calling methods
 
